@@ -3,7 +3,7 @@
                Lab: Th 12:00PM - 1:50PM
 The purpose of this program is to simulate shopping at a candy store.
 This program will ask the user which goods they would like to buy,
-ask them to pay, and give them change back is necessary*/
+ask them to pay, and give them change back if necessary*/
 
 import java.util.*;
 
@@ -12,21 +12,21 @@ public class assign1
 
       public static void main (String [] args)
       {
-            //declare var.
-            int option = 0;                     //asks user for input from 1-6 for the menu options
-            int acidt = 0;                      //total number of acid
-            int acid = 0;                       //individual acis pops
+            //Declare vars.
+            int option = 0;                     //Asks user for input from 1-6 for the menu options
+            int acidt = 0;                      //Total number of acid
+            int acid = 0;                       //Individual acis pops
             int bag_acid = 0;
             int pumpkin = 0;
-            int s_beans = 0;                    //small bag and big bag of beans
+            int s_beans = 0;                    //Small bag and big bag of beans
             int b_beans = 0;
             double subtotal;
             int total;
             int discount;
-            int subtotalf;                      //subtotal for converting double subtotal to int.
-            int first_customer = 0;             //counter for while loop for arbitrary amounts of customers.
-            int leaveloop = 0;                  //increment int for asking for password
-	    String yes_no;                     //string for user input
+            int subtotalf;                      //Subtotal for converting double subtotal to int.
+            int first_customer = 0;             //Counter for while loop for arbitrary amounts of customers.
+            int leaveloop = 0;                  //Increment int for asking for password
+	    String yes_no;                      //String for user input
             int money;
             int moneyt = 0;
             String curr;
