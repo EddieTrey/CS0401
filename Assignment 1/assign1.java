@@ -31,7 +31,7 @@ public class assign1
             int moneyt = 0;
             String curr;
 
-            System.out.println("Ｗelcome to -A Little Honey-");
+            System.out.println("Welcome to -A Little Honey-");
             //This section handles asking if there is a new customer
             //and if the answer is yes, the loop begins. if the answer
             //is no, the program quits
