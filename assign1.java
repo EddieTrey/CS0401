@@ -106,7 +106,7 @@ public class assign1
                 option = user_customer.nextInt();
                 if (option == 1)
                 {
-                    //This section is in charge of asking and recording how many pops the user wants
+                    //This section is in charge of asking and recording how many pops the user wants.
 
                     System.out.println("\nYour current order of Acid Pops is: ");
                     System.out.println("         " + bag_acid + " bags of Acid Pops");
@@ -445,6 +445,11 @@ public class assign1
         }
 
     }
+
+    // public static void payment(){
+
+    // }
+
     public static void showMenu(){
         System.out.println("\nAcid Pops                         12 Knuts");
         System.out.println("Acid Pops (bag)                   58 Knuts");
